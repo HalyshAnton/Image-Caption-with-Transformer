@@ -19,3 +19,7 @@ According to article model consist of three parts:
 * **Decoder:** take embedded caption(with positional encoding) apply Masked MultiHeadAttention(to avoid information from furture) and then apply MultiHeadAttention with output from Encoder. After another small forward feed network return propability distribution of the next word in caption.
 
   ![alt text](https://github.com/HalyshAnton/Image-Caption-with-Transformer/blob/main/model_achitecture.png)
+
+## Model Performance
+I have used Early Stop method and Adam optimizer. After 7 epochs I got next 38% accurancy with validation data. Using trained model I generated captions for 5 random images:
+![alt text](https://github.com/HalyshAnton/Image-Caption-with-Transformer/blob/main/predicted_captions.png)
