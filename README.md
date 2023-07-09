@@ -3,7 +3,7 @@ The goal of this project is to combine computer vision and natural language proc
 
 ## Code and Resources Used 
 **Python Version:** 3.10  
-**Packages:** pandas, numpy, sklearn, matplotlib, tensorflow, keras  
+**Packages:** pandas, numpy, matplotlib, tensorflow, keras  
 **Data source:** https://www.kaggle.com/datasets/aladdinpersson/flickr8kimagescaptions/download
 
 **Article:** https://arxiv.org/pdf/1706.03762
