@@ -22,5 +22,5 @@ According to article model consist of three parts:
   ![alt text](https://github.com/HalyshAnton/Image-Caption-with-Transformer/blob/main/model_achitecture.png)
 
 ## Model Performance
-I have used Early Stop method and Adam optimizer. Also I have used image augmentation: horizontal flip, rotation and contrast. After 7 epochs I got 38% accurancy with validation data. Using trained model I generated captions for 5 random images:
+I have used Early Stop method and Adam optimizer. Also I have used image augmentation: horizontal flip, rotation and contrast. After 21 epochs I got 37% accurancy with validation data. Using trained model I generated captions for 5 random images:
 ![alt text](https://github.com/HalyshAnton/Image-Caption-with-Transformer/blob/main/predicted_captions.png)
